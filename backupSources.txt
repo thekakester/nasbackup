@@ -1,0 +1,14 @@
+//nas1/nx
+//nas1/nx9
+//nas1/product
+//nas2/archive
+//nas2/backup_dbruce
+//nas2/backup_lchacko
+//nas2/process1
+//nas3/EMAIL
+//nas3/public
+//nas4/info
+//nas4/cnc
+//nas4/product_2
+//nas5/webdrop
+//nas5/product
