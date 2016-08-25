@@ -1,0 +1,215 @@
+[96mPreparing to back up:[0m
+  - [93m//nas1/nx[0m
+  - [93m//nas1/nx9[0m
+  - [93m//nas1/product[0m
+  - [93m//nas2/archive[0m
+  - [93m//nas2/backup_dbruce[0m
+  - [93m//nas2/backup_lchacko[0m
+  - [93m//nas2/process1[0m
+  - [93m//nas3/EMAIL[0m
+  - [93m//nas3/public[0m
+  - [93m//nas4/info[0m
+  - [93m//nas4/cnc[0m
+  - [93m//nas4/product_2[0m
+  - [93m//nas5/webdrop[0m
+  - [93m//nas5/product[0m
+  - [93m//nas5/MitchFiles[0m
+[96m=[0m
+[96mBacking up [93m//nas1/nx
+[96m=[0m
+Mounting //nas1/nx to /media/temp_mount
+Creating directory /run/media/duncan/backup1//nas1/nx because it doesn't exist
+Syncing... This may take a while
+Syncing folder //nas1/nx to /run/media/duncan/backup1//nas1/nx
+sending incremental file list
+Rsync Result: 
+Unmounting /media/temp_mount
+
+
+[96m=[0m
+[96mBacking up [93m//nas1/nx9
+[96m=[0m
+Unmounting /media/temp_mount
+Mounting //nas1/nx9 to /media/temp_mount
+Creating directory /run/media/duncan/backup1//nas1/nx9 because it doesn't exist
+Syncing... This may take a while
+Syncing folder //nas1/nx9 to /run/media/duncan/backup1//nas1/nx9
+sending incremental file list
+Rsync Result: 
+Unmounting /media/temp_mount
+
+
+[96m=[0m
+[96mBacking up [93m//nas1/product
+[96m=[0m
+Unmounting /media/temp_mount
+Mounting //nas1/product to /media/temp_mount
+Creating directory /run/media/duncan/backup1//nas1/product because it doesn't exist
+Syncing... This may take a while
+Syncing folder //nas1/product to /run/media/duncan/backup1//nas1/product
+sending incremental file list
+Rsync Result: 
+Unmounting /media/temp_mount
+
+
+[96m=[0m
+[96mBacking up [93m//nas2/archive
+[96m=[0m
+Unmounting /media/temp_mount
+Mounting //nas2/archive to /media/temp_mount
+Creating directory /run/media/duncan/backup1//nas2/archive because it doesn't exist
+Syncing... This may take a while
+Syncing folder //nas2/archive to /run/media/duncan/backup1//nas2/archive
+sending incremental file list
+Rsync Result: 
+Unmounting /media/temp_mount
+
+
+[96m=[0m
+[96mBacking up [93m//nas2/backup_dbruce
+[96m=[0m
+Unmounting /media/temp_mount
+Mounting //nas2/backup_dbruce to /media/temp_mount
+Creating directory /run/media/duncan/backup1//nas2/backup_dbruce because it doesn't exist
+Syncing... This may take a while
+Syncing folder //nas2/backup_dbruce to /run/media/duncan/backup1//nas2/backup_dbruce
+sending incremental file list
+Rsync Result: 
+Unmounting /media/temp_mount
+
+
+[96m=[0m
+[96mBacking up [93m//nas2/backup_lchacko
+[96m=[0m
+Unmounting /media/temp_mount
+Mounting //nas2/backup_lchacko to /media/temp_mount
+Creating directory /run/media/duncan/backup1//nas2/backup_lchacko because it doesn't exist
+Syncing... This may take a while
+Syncing folder //nas2/backup_lchacko to /run/media/duncan/backup1//nas2/backup_lchacko
+sending incremental file list
+Rsync Result: 
+Unmounting /media/temp_mount
+
+
+[96m=[0m
+[96mBacking up [93m//nas2/process1
+[96m=[0m
+Unmounting /media/temp_mount
+Mounting //nas2/process1 to /media/temp_mount
+Creating directory /run/media/duncan/backup1//nas2/process1 because it doesn't exist
+Syncing... This may take a while
+Syncing folder //nas2/process1 to /run/media/duncan/backup1//nas2/process1
+sending incremental file list
+Rsync Result: 
+Unmounting /media/temp_mount
+
+
+[96m=[0m
+[96mBacking up [93m//nas3/EMAIL
+[96m=[0m
+Unmounting /media/temp_mount
+Mounting //nas3/EMAIL to /media/temp_mount
+Creating directory /run/media/duncan/backup1//nas3/EMAIL because it doesn't exist
+Syncing... This may take a while
+Syncing folder //nas3/EMAIL to /run/media/duncan/backup1//nas3/EMAIL
+sending incremental file list
+Rsync Result: 
+Unmounting /media/temp_mount
+
+
+[96m=[0m
+[96mBacking up [93m//nas3/public
+[96m=[0m
+Unmounting /media/temp_mount
+Mounting //nas3/public to /media/temp_mount
+Creating directory /run/media/duncan/backup1//nas3/public because it doesn't exist
+Syncing... This may take a while
+Syncing folder //nas3/public to /run/media/duncan/backup1//nas3/public
+sending incremental file list
+Rsync Result: 
+Unmounting /media/temp_mount
+
+
+[96m=[0m
+[96mBacking up [93m//nas4/info
+[96m=[0m
+Unmounting /media/temp_mount
+Mounting //nas4/info to /media/temp_mount
+Creating directory /run/media/duncan/backup1//nas4/info because it doesn't exist
+Syncing... This may take a while
+Syncing folder //nas4/info to /run/media/duncan/backup1//nas4/info
+sending incremental file list
+Rsync Result: 
+Unmounting /media/temp_mount
+
+
+[96m=[0m
+[96mBacking up [93m//nas4/cnc
+[96m=[0m
+Unmounting /media/temp_mount
+Mounting //nas4/cnc to /media/temp_mount
+Creating directory /run/media/duncan/backup1//nas4/cnc because it doesn't exist
+Syncing... This may take a while
+Syncing folder //nas4/cnc to /run/media/duncan/backup1//nas4/cnc
+sending incremental file list
+Rsync Result: 
+Unmounting /media/temp_mount
+
+
+[96m=[0m
+[96mBacking up [93m//nas4/product_2
+[96m=[0m
+Unmounting /media/temp_mount
+Mounting //nas4/product_2 to /media/temp_mount
+Creating directory /run/media/duncan/backup1//nas4/product_2 because it doesn't exist
+Syncing... This may take a while
+Syncing folder //nas4/product_2 to /run/media/duncan/backup1//nas4/product_2
+sending incremental file list
+Rsync Result: 
+Unmounting /media/temp_mount
+
+
+[96m=[0m
+[96mBacking up [93m//nas5/webdrop
+[96m=[0m
+Unmounting /media/temp_mount
+Mounting //nas5/webdrop to /media/temp_mount
+Creating directory /run/media/duncan/backup1//nas5/webdrop because it doesn't exist
+Syncing... This may take a while
+Syncing folder //nas5/webdrop to /run/media/duncan/backup1//nas5/webdrop
+sending incremental file list
+Rsync Result: 
+Unmounting /media/temp_mount
+
+
+[96m=[0m
+[96mBacking up [93m//nas5/product
+[96m=[0m
+Unmounting /media/temp_mount
+Mounting //nas5/product to /media/temp_mount
+Creating directory /run/media/duncan/backup1//nas5/product because it doesn't exist
+Syncing... This may take a while
+Syncing folder //nas5/product to /run/media/duncan/backup1//nas5/product
+sending incremental file list
+Rsync Result: 
+Unmounting /media/temp_mount
+
+
+[96m=[0m
+[96mBacking up [93m//nas5/MitchFiles
+[96m=[0m
+Unmounting /media/temp_mount
+Mounting //nas5/MitchFiles to /media/temp_mount
+Creating directory /run/media/duncan/backup1//nas5/MitchFiles because it doesn't exist
+Syncing... This may take a while
+Syncing folder //nas5/MitchFiles to /run/media/duncan/backup1//nas5/MitchFiles
+sending incremental file list
+Rsync Result: 
+Unmounting /media/temp_mount
+
+
+[96m=[0m
+[96m=[0m
+[96m=[0m
+
+[96mAll backups are complete[0m

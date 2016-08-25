@@ -51,11 +51,11 @@ MOUNT_FOLDER="/media/temp_mount"
 DESTINATION="/run/media/duncan/backup1/"
 
 #Where to store output in a log file
-LOG_FILE="/home/duncan/Desktop/backupLog.txt"
+LOG_FILE="backupLog.txt"
 
 #What is the location of this file?  We need to CD to it so we can find the settings files!
 #Must be an absolute path (starting with "/")
-RUN_FROM="/home/duncan/Desktop"
+RUN_FROM="/home/duncan/Desktop/nasbackup"
 #################################################
 # MAIN PROGRAM                                  #
 # DO NOT MODIFY BELOW THIS POINT                #
@@ -66,9 +66,9 @@ YEL="\e[93m"
 RED="\e[31m"
 
 function unmountDirectory {
-	if mount|grep -q $MOUNT_FOLDER; then
+	if /bin/mount|grep -q $MOUNT_FOLDER; then
 		echo "Unmounting $MOUNT_FOLDER"
-		sudo umount -f $MOUNT_FOLDER
+		sudo /bin/umount -f $MOUNT_FOLDER
 	fi
 }
 
@@ -127,7 +127,7 @@ for i in ${!SOURCES[@]}; do
 
 	#Actually mount up the drive now.  -t cifs means type=cifs (some network fs)
 	echo "Mounting $SOURCE to $MOUNT_FOLDER"
-	sudo mount -t cifs $SOURCE $MOUNT_FOLDER -o user="$NASUSER",password="$NASPASS" >> $LOG_FILE
+	/bin/mount -t cifs $SOURCE $MOUNT_FOLDER -o user="$NASUSER",password="$NASPASS" >> $LOG_FILE
 
 	#Before we start rsync, make sure our backup folder exists
 	#Relative_folder = $i, but replace "//" with ""
@@ -143,7 +143,7 @@ for i in ${!SOURCES[@]}; do
 	#and it would start deleting from the backup
 	#We can do a check first by making sure the mount succeeded
 	echo $NASUSER >> $LOG_FILE
-	if mount|grep -q $MOUNT_FOLDER; then
+	if /bin/mount|grep -q $MOUNT_FOLDER; then
 
 		#Sync the folders
 		#a & r = recursive
@@ -153,8 +153,9 @@ for i in ${!SOURCES[@]}; do
 		#delete = Delete files that no longer exist on source
 		echo "Syncing... This may take a while"
 		echo "Syncing folder $SOURCE to $BACKUP_FOLDER"
-		sudo rsync -artzv --delete $MOUNT_FOLDER/ $BACKUP_FOLDER
-		
+		#Make sure this is the same as the other backup script
+		MYRESULT=sudo rsync -artzv --delete $MOUNT_FOLDER/ $BACKUP_FOLDER
+		echo "Rsync Result: ${MYRESULT}"
 	else
 		echo -e "${RED}ERROR: Can't back up${DEF}: Drive mounting failed"
 		echo -e "$(date)          FAILED: Drive not mounted" >> $LOG_FILE
